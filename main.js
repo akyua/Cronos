@@ -1,12 +1,37 @@
-let click = true
+let sec= 0
+let min= 0
+let interval
 
-function seconds(){
-    if (click = true){
-        for(let timer = 1; timer <= 60; timer++){
-            console.log(timer);
-        }
+
+function twoDigits(digit) {
+    if(digit < 10){
+        return('0'+digit)
+    } else{
+        return(digit)
     }
 }
 
-console.log(seconds());
+function start() {
+    watch()
+    interval = setInterval(watch,1000)
+}
 
+function pause() {
+    clearInterval(interval)
+}
+
+function stop() {
+    clearInterval(interval)
+    sec= 0
+    min= 0
+    document.getElementById('watch').innerText = '00:00'
+}
+
+function watch(){
+    sec++;
+    if(sec==60){
+        min++
+        sec=0
+    }
+    document.getElementById('watch').innerText = twoDigits(min) + ':' + twoDigits(sec)
+}
