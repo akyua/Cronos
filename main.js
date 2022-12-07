@@ -20,7 +20,7 @@ function pause() {
     clearInterval(interval)
 }
 
-function stop() {
+function restart() {
     clearInterval(interval)
     sec= 0
     min= 0
