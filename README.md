@@ -13,7 +13,7 @@
 <br>
 
 <h2 align="center"> See website on live </h2>
-<p align="center"> https://akyua.github.io/Cronos/ </p>
+<p align="center"> https://cronos-akyua.vercel.app </p>
 
 <br>
 

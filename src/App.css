@@ -40,3 +40,8 @@ button.with-text svg{
   float: left;
   margin-right: 5px;
 }
+
+label{
+  display: block;
+  
+}
