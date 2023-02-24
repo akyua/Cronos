@@ -1,10 +1,13 @@
 body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color:  #232324;
   color: #EEE;
 }
 
 main{
-  padding-top: 50px;
   max-width: 340px;
   margin: 0 auto;
   text-align: center;
