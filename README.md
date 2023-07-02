@@ -1,31 +1,29 @@
-<h1 align="center">Cronos</h1>
+# Cronos
 
-<p align="center"> The Project is a website, where your purpose is make the function of a pomodoro / timer </p>
+Introducing a Pomodoro project designed to support your focus and relaxation. Customize your preferred time intervals in the settings to align with your needs and maximize productivity. Stay in control of your work and rejuvenation periods with ease.
 
-<br>
+[![license mit](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&labelColor=000)](https://img.shields.io/github/license/akyua/Cronos)
 
-<h2 align="center"> Progress about the Project </h2>
-<p align="center"> ✅ First Version Completed ✅ </p>
-<p align="center"> ✅ Second Version in Development ✅ </p>
+## Dependencies
 
-<br>
+- react
+- react-dom
+- react-scripts
+- react-slider
+- react-circular-progressbar
+- web-vitals
 
-<h2 align="center"> See website on live </h2>
-<p align="center"> https://cronos-akyua.vercel.app </p>
+## See website on live
 
-<br>
+- https://cronos-akyua.vercel.app/
 
-<h2 align="center"> Technologies Used </h2>
+## Technologies Used
 
-<p align="center"> ReactJS </p>
-<p align="center"> JSX </p>
-<p align="center"> Javascript </p>
-<p align="center"> CSS </p>
-<p align="center"> npm (library) </p>
+![Javascript](https://img.shields.io/badge/-Javascript-black?style=for-the-badge&logo=javascript)
+![CSS](https://img.shields.io/badge/-CSS-black?style=for-the-badge&logo=css3)
+![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
 
-<br>
-
-<h2 align="center"> Final Result of the website </h2>
+## Pictures of the Project
 
 <div align="center">
 
@@ -33,3 +31,7 @@
 ![cronos2](https://user-images.githubusercontent.com/75745796/221297727-355dced4-dff1-4d3c-8766-f334a3b2d88a.png)
 
 </div>
+
+## License
+
+[MIT License](./LICENSE) © [Gabriel Silveira](http://gabrielsilveira.tk/)
